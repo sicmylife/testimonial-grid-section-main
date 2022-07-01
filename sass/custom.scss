@@ -1,0 +1,32 @@
+
+$font-family-sans-serif:'Barlow Semi Condensed', sans-serif;
+$primary:#733FC8;
+$success:#49556b;
+$dark:#18202D;
+$secondary:#edf2f8;
+
+@media (min-width: 992px) { 
+    .alto-100{
+        height: 100vh;
+    }
+ }
+
+ .d-flex img {
+    width: 50px;
+ }
+
+ .fonde-card{
+    background: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+
+ }
+
+ .font2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+ }
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
